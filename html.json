@@ -1,0 +1,30 @@
+{
+	"snippet easy file": {
+		"prefix": "snippet_prefix",
+		"body": [
+			"<!DOCTYPE html>",
+			"<html lang=\"lt\">",
+			"  <head>",
+			"    <meta charset=\"UTF-8\">",
+			"    <meta name=\"autorius\" content=\"Eduard Petkevič, Ef-22/2\">",
+			"    <meta name=\"Description\" content=\"Tai yra mano HTML dokumento praktika\">",
+			"    <title>Script Laborai</title>",
+			"    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">",
+			"  </head>",
+			"  <body>",
+			"    <h1>Eduard Petkevič, Ef-22/2</h1>",
+			"    <p>",
+			"      Kad niekas manes nematytu ir nezinotu",
+			"      <b>Dabar esu tamsiai juodas</b>",
+			"      o dabar busiu va toks",
+			"      <i>kaip nezinau kas</i>",
+			"      o tada mane pagavo ir tapau",
+			"      <u>isbrauktas is geru studentu saraso</u>.",
+			"    </p>",
+			"    <object data=\"snippetex.html\"></object>",
+			"  </body>",
+			"</html>"
+		],
+		"description": "Aprašymas snippetui"
+    }
+}
