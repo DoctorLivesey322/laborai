@@ -6,22 +6,116 @@
     <meta name="Description" content="Tai yra mano HTML dokumento praktika">
     <title>Script Laborai</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+        }
+
+        .text {
+            text-align: left;
+            margin-left: 10px;
+            height: 110%;
+        }
+
+        .image {
+            margin-left: 10px;
+            
+        }
+        section {
+            margin-bottom: 30px; 
+        }
+        .text1 {
+            margin-left: 10px;
+            text-align: left;
+            font-size: 19px; 
+            line-height: 1.8; 
+        }
+        .video {
+           /* margin-top: 10px; */
+            margin-left: 30px; 
+        }
+        .video1 {
+           /*float: right; */
+           margin-left: 300px; 
+       }
+       .audio {
+        margin-left: 450px;
+       }
+    </style>
 </head>
 <body>
-   
-    <h1>Eduard Petkevič, Ef-22/2</h1>
-    <p>
-        Kad niekas manes nematytu ir nezinotu
+    <header>
+        <div class="text">
+        <h1>Doctor Livesey</h1>
+    </div>
+    </header>
+
+    <section id="apie">
         
-        <b>Dabar esu tamsiai juodas</b><p>
+        <div class="container">
+            <div class="image">
+        <img src="stylesheet/doctorLiv.png" alt="Nuotrauka 1" width="230" height="230">
+    </div>
+    <div class="text">
+        <h2>Apie Mane</h2>
+            <p>Labai draugiškas, bendraujantis, optimistiškas ir svetingas. Ahahahah. Esu geras diplomatas. </p>
+            <p>Aš pasisakau už sveikos gyvensenos palaikymą, nesu vedęs. Ahahahahahah. Džentelmenas,</p> 
+            <p>gydytojas ir teisėjas, nuostabios drąsos žmogus, pasiruošęs nedvejodamai atlikti savo </p>
+            <p>profesinę ir žmogiškąją pareigą. Ahahahahah. Mėgstamiausia frazė: „Žodis „romas“ ir žodis </p>
+            <p>„mirtis“ jums reiškia tą patį! AHAHAHAHAHAHAHAH.</p>
+        </div>
+        <div class="video">
+            <video controls width="500" height="230">
+                <source src="stylesheet/drdr.mp4" type="video/mp4">
+                
+            </video>
+    </div>
+    </section>
 
-        </p>, o dabar busiu va toks
-        <i>kaip nezinau kas</i><p>
+    <section id="faktai">
+        <div class="container">
+            <div class="image">
+        <img src="stylesheet/pirates.jpg" alt="Nuotrauka 2" width="230" height="230">
+    </div>
+    <div class="text1">
+        <h2>Faktai</h2>
+        <ul>
+            <li>Mėgstu juoktis</li>
+            <li>Kovoju su piratais</li>
+            <li>Esu gydytojas ir mėgstu rūkytį pipkę</li>
+            <li>Kur mano romas???</li>
+        </ul>
+        </div>
+        <div class="video1">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qOoKVGkzvis" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-        </p> o tada mane pagavo ir tapau
-         <u>isbrauktas is geru studentu saraso</u>.
-    
-     </p>
-     <object data="snippetex.html"></object>
+        </div>
+        <div style="clear:both;"></div>
+        </div>
+
+    </section>
+
+    <section id="igudziai">
+        <div class="container">
+            <div class="image">
+        <img src="stylesheet/drlivesey.jpg" alt="Nuotrauka 3" width="230" height="230">
+    </div>
+    <div class="text1">
+        <h2>Įgūdžiai</h2>
+        <ul>
+            <li>Daktaras</li>
+            <li>Visu merginų idolas</li>
+            <li>Šokėjas</li>
+            <li>Modelis</li>
+        </ul>
+    </div>
+    <div class="audio">
+        <audio controls>
+            <source src="stylesheet/AHAHAHAHAHAHAHAHAHA.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+</div>
+    </section>
 </body>
 </html>
